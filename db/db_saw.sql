@@ -37,14 +37,16 @@ CREATE TABLE `saw_alternatives` (
 --
 
 INSERT INTO `saw_alternatives` (`id_alternative`, `name`) VALUES
-(1, 'Kevin Sanjaya'),
-(2, 'Sin Tay Young'),
-(3, 'Ginting'),
-(4, 'Aprius Laia'),
-(5, 'Kasep'),
-(6, 'Petrus'),
-(7, 'Trubus'),
-(8, 'Edowin');
+(1, 'Kos Jalan Perkasa'),
+(2, 'Kos Geger Asih 145'),
+(3, 'Kos Madina'),
+(4, 'Kos NT31'),
+(5, 'Kos Chicaritos 122'),
+(6, 'Kos Willy'),
+(7, 'Kos Ambu Lia'),
+(8, 'Kos Pak Dadan'),
+(9, 'Kos Ubari'),
+(10, 'Kos Tera');
 
 -- --------------------------------------------------------
 
@@ -64,11 +66,11 @@ CREATE TABLE `saw_criterias` (
 --
 
 INSERT INTO `saw_criterias` (`id_criteria`, `criteria`, `weight`, `attribute`) VALUES
-(1, 'Penguasaan Aspek Teknis Meja', 2.9, 'benefit'),
-(2, 'Pengalaman Kerja', 2.8, 'benefit'),
-(3, 'Interpersonal Skill', 1.5, 'benefit'),
-(4, 'Usia', 2, 'cost'),
-(5, 'Staus Perkawainan', 2.8, 'cost');
+(1, 'Biaya', 2.9, 'cost'),
+(2, 'Jarak', 2.8, 'cost'),
+(3, 'Fasilitas Kamar', 1.5, 'benefit'),
+(4, 'Fasilitas Umum', 2, 'benefit'),
+(5, 'Lingkungan Sekitar', 2.8, 'benefit');
 
 -- --------------------------------------------------------
 
