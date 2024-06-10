@@ -23,25 +23,28 @@ require "include/conn.php";
               <div class="card">
 
                 <div class="card-header">
-                  <h4 class="card-title">Matriks Keputusan (X) &amp; Ternormalisasi (R)</h4>
+                  <h4 class="card-title">Matriks Keputusan &amp; Ternormalisasi</h4>
                 </div>
                 <div class="card-content">
                   <div class="card-body">
-                    <p class="card-text">Melakukan perhitungan normalisasi untuk mendapatkan matriks nilai ternormalisasi (R), dengan ketentuan : <br>
+                    <p class="card-text">Melakukan perhitungan normalisasi untuk mendapatkan matriks nilai ternormalisasi, dengan ketentuan : <br>
                                          Jika kriteria bertipe cost maka digunakan rumusan:
                                          Rij = ( min{Xij} / Xij) <br>
                                          sedangkan jika kriteria bertipe benefit maka digunakan rumusan:
                                          Rij = ( Xij/max{Xij} )
                     </p>
                   </div>
+                  <div class="p-auto m-auto">
                   <button type="button" class="btn btn-outline-success btn-sm m-2" data-bs-toggle="modal"
                                         data-bs-target="#inlineForm">
                                         Isi Nilai Alternatif
                   </button>
+                  </div>
+                  
                   <div class="table-responsive">
                   <table class="table table-striped mb-0">
     <caption>
-        Matrik Keputusan(X)
+        Matrik Keputusan
     </caption>
     <tr>
         <th rowspan='2'>Alternatif</th>
@@ -95,7 +98,7 @@ $result->free();
 
 <table class="table table-striped mb-0">
     <caption>
-        Matrik Ternormalisasi (R)
+        Matrik Ternormalisasi
     </caption>
     <tr>
         <th rowspan='2'>Alternatif</th>
@@ -192,14 +195,14 @@ while ($row = $result->fetch_object()) {
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="modal-title" id="myModalLabel33">Isi Nilai Kandidat </h4>
+                        <h4 class="modal-title" id="myModalLabel33">Isi Nilai Alternatif </h4>
                         <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                             <i data-feather="x"></i>
                         </button>
                     </div>
                     <form action="matrik-simpan.php" method="POST">
                         <div class="modal-body">
-                            <label>Name: </label>
+                            <label>Nama Alternatif: </label>
                             <div class="form-group">
                             <select class="form-control form-select" name="id_alternative">
                             <?php
@@ -215,7 +218,7 @@ $result->free();
                             </div>
                         </div>
                         <div class="modal-body">
-                            <label>Criteria: </label>
+                            <label>Kriteria : </label>
                             <div class="form-group">
                             <select class="form-control form-select" name="id_criteria">
                             <?php
@@ -231,7 +234,7 @@ $result->free();
                             </div>
                         </div>
                         <div class="modal-body">
-                            <label>Value: </label>
+                            <label>Nilai : </label>
                             <div class="form-group">
                                 <input type="text" name="value" placeholder="value..." class="form-control"
                                     required>
@@ -240,7 +243,7 @@ $result->free();
                         <div class="modal-footer">
                             <button type="button" class="btn btn-light-secondary" data-bs-dismiss="modal">
                                 <i class="bx bx-x d-block d-sm-none"></i>
-                                <span class="d-none d-sm-block">Close</span>
+                                <span class="d-none d-sm-block">Tutup</span>
                             </button>
                             <button type="submit" name="submit" class="btn btn-primary ml-1">
                                 <i class="bx bx-check d-block d-sm-none"></i>

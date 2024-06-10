@@ -17,7 +17,7 @@ require "R.php";
           </a>
         </header>
         <div class="page-heading">
-          <h3>Nilai Preferensi (P)</h3>
+          <h3>Nilai Preferensi</h3>
         </div>
         <div class="page-content">
           <section class="row">
@@ -25,17 +25,17 @@ require "R.php";
               <div class="card">
 
                 <div class="card-header">
-                  <h4 class="card-title">Tabel Nilai Preferensi (P)</h4>
+                  <h4 class="card-title">Tabel Nilai Preferensi</h4>
                 </div>
                 <div class="card-content">
                   <div class="card-body">
                     <p class="card-text">
-                    Nilai preferensi (P) merupakan penjumlahan dari perkalian matriks ternormalisasi R dengan vektor bobot W.</p>
+                    Nilai preferensi merupakan penjumlahan dari perkalian matriks ternormalisasi dengan bobot.</p>
                   </div>
                   <div class="table-responsive">
                     <table class="table table-striped mb-0">
                     <caption>
-    Nilai Preferensi (P)
+    Nilai Preferensi
   </caption>
   <tr>
     <th>No</th>
@@ -47,6 +47,7 @@ require "R.php";
 $P = array();
 $m = count($W);
 $no = 0;
+asort($P);
 foreach ($R as $i => $r) {
     for ($j = 0; $j < $m; $j++) {
         $P[$i] = (isset($P[$i]) ? $P[$i] : 0) + $r[$j] * $W[$j];
