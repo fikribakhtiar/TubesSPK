@@ -24,15 +24,10 @@
                                 <div class="card-content">
                                     <div class="card-body">
                                         <p class="card-text">
-                                            Metode Simple Additive Weighting (SAW) sering juga dikenal istilah metode
-                                            penjumlahan terbobot. Konsep dasar metode SAW adalah mencari penjumlahan
-                                            terbobot dari rating kinerja pada setiap alternatif pada semua atribut
-                                            (Fishburn 1967). SAW dapat dianggap sebagai cara yang paling mudah dan
-                                            intuitif untuk menangani masalah Multiple Criteria Decision-Making MCDM,
-                                            karena fungsi linear additive dapat mewakili preferensi pembuat keputusan
-                                            (Decision-Making, DM). Hal tersebut dapat dibenarkan, namun, hanya ketika
-                                            asumsi preference independence (Keeney & Raiffa 1976) atau preference
-                                            separability (Gorman 1968) terpenuhi.
+                                        Metode Simple Additive Weighting (SAW) merupakan salah satu metode dalam SPK yang dapat digunakan untuk menilai dan memilih 
+                                        alternatif terbaik berdasarkan beberapa kriteria yang telah ditentukan. Metode SAW memiliki keunggulan dengan kemampuannya untuk 
+                                        melakukan penilaian dengan lebih akurat karena didasarkan pada nilai kriteria dan bobot preferensi yang telah ditetapkan 
+                                        (Kusumadewi et al., 2006).
                                         </p>
                                         <hr>
                                         <p class="card-text">
@@ -56,11 +51,17 @@
                                                 Melakukan penjumlahan dari perkalian matriks ternormalisasi dengan bobot kriteria sehingga diperoleh solusi alternatif terbaik berdasarkan peringkat terbesar.
                                             </li>
                                         </ol>
-                                        <div class="text-center p-5">
+                                        <div class="p-5">
                                             <p class="fw-bold text-start">
                                                 Tabel preferensi yang digunakan dalam studi kasus kali ini adalah sebagai berikut :
                                             </p>
-                                            <img src="./assets/images/Tabel_Preferensi.jpg" alt="Tabel Preferensi" class="t rounded">
+                                            <div class="text-center">
+                                                <img src="./assets/images/Tabel_Preferensi.jpg" alt="Tabel Preferensi" class="t rounded">
+                                            </div>
+                                            <p class="fw-bold text-start p-3">Studi kasus: Sistem pendukung keputusan pemilihan kost</p>
+                                            <p>Tahun ajaran baru akan dimulai namun bagi mahasiswa yang memiliki jarak tempuh yang jauh dengan kampus
+                                                memerlukan kost, maka dari itu kami menyediakan sistem pendukung keputusan membantu pemilihan kost.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
