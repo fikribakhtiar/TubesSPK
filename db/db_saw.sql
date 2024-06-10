@@ -41,12 +41,7 @@ INSERT INTO `saw_alternatives` (`id_alternative`, `name`) VALUES
 (2, 'Kos Geger Asih 145'),
 (3, 'Kos Madina'),
 (4, 'Kos NT31'),
-(5, 'Kos Chicaritos 122'),
-(6, 'Kos Willy'),
-(7, 'Kos Ambu Lia'),
-(8, 'Kos Pak Dadan'),
-(9, 'Kos Ubari'),
-(10, 'Kos Tera');
+(5, 'Kos Chicaritos 122');
 
 -- --------------------------------------------------------
 
@@ -66,11 +61,11 @@ CREATE TABLE `saw_criterias` (
 --
 
 INSERT INTO `saw_criterias` (`id_criteria`, `criteria`, `weight`, `attribute`) VALUES
-(1, 'Biaya', 2.9, 'cost'),
-(2, 'Jarak', 2.8, 'cost'),
-(3, 'Fasilitas Kamar', 1.5, 'benefit'),
-(4, 'Fasilitas Umum', 2, 'benefit'),
-(5, 'Lingkungan Sekitar', 2.8, 'benefit');
+(1, 'Biaya', 3, 'cost'),
+(2, 'Jarak', 4, 'cost'),
+(3, 'Fasilitas Kamar', 2, 'benefit'),
+(4, 'Fasilitas Umum', 3, 'benefit'),
+(5, 'Lingkungan Sekitar', 1, 'benefit');
 
 -- --------------------------------------------------------
 
@@ -111,19 +106,7 @@ INSERT INTO `saw_evaluations` (`id_alternative`, `id_criteria`, `value`) VALUES
 (4, 5, 10),
 (5, 1, 8),
 (5, 2, 6.5),
-(5, 3, 8.5),
-(5, 4, 37),
-(5, 5, 8),
-(6, 2, 2),
-(6, 1, 6),
-(6, 3, 9.5),
-(6, 4, 18),
-(6, 5, 1),
-(10, 1, 2),
-(10, 2, 1),
-(10, 3, 4),
-(10, 4, 6),
-(10, 5, 7);
+(5, 3, 8.5);
 
 -- --------------------------------------------------------
 

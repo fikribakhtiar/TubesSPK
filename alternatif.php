@@ -28,8 +28,7 @@ require "include/conn.php";
                                 <div class="card-content">
                                     <div class="card-body">
                                         <p class="card-text">
-                                            Data-data mengenai kandidat yang akan dievaluasi di representasikan dalam
-                                            tabel berikut:
+                                            Data-data mengenai alternatif kost yang akan diolah dalam tabel berikut:
                                         </p>
                                     </div>
                                     <button type="button" class="btn btn-outline-success btn-sm m-2" data-bs-toggle="modal"
@@ -88,16 +87,16 @@ $result->free();
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="modal-title" id="myModalLabel33">Login Form </h4>
+                        <h4 class="modal-title" id="myModalLabel33">Tambah data alternatif</h4>
                         <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                             <i data-feather="x"></i>
                         </button>
                     </div>
                     <form action="alternatif-simpan.php" method="POST">
                         <div class="modal-body">
-                            <label>Name: </label>
+                            <label>Nama Alternatif: </label>
                             <div class="form-group">
-                                <input type="text" name="name" placeholder="Nama Kandidat..." class="form-control"
+                                <input type="text" name="name" placeholder="Example..." class="form-control"
                                     required>
                             </div>
                         </div>

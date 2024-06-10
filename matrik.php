@@ -27,10 +27,10 @@ require "include/conn.php";
                 </div>
                 <div class="card-content">
                   <div class="card-body">
-                    <p class="card-text">Melakukan perhitungan normalisasi untuk mendapatkan matriks nilai ternormalisasi (R), dengan ketentuan :
-                                         Untuk normalisai nilai, jika faktor/attribute kriteria bertipe cost maka digunakan rumusan:
-                                         Rij = ( min{Xij} / Xij)
-                                         sedangkan jika faktor/attribute kriteria bertipe benefit maka digunakan rumusan:
+                    <p class="card-text">Melakukan perhitungan normalisasi untuk mendapatkan matriks nilai ternormalisasi (R), dengan ketentuan : <br>
+                                         Jika kriteria bertipe cost maka digunakan rumusan:
+                                         Rij = ( min{Xij} / Xij) <br>
+                                         sedangkan jika kriteria bertipe benefit maka digunakan rumusan:
                                          Rij = ( Xij/max{Xij} )
                     </p>
                   </div>

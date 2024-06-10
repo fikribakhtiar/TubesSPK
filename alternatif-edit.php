@@ -19,7 +19,7 @@ $row = $result->fetch_array();
                     </a>
                 </header>
                 <div class="page-heading">
-                    <h3>Alternatif Edit</h3>
+                    <h3>Edit Alternatif</h3>
                 </div>
                 <div class="page-content">
                     <section class="row">
@@ -33,7 +33,7 @@ $row = $result->fetch_array();
                                 <div class="col">
                                     <form action="alternatif-edit-act.php" method="POST">
                                     <div class="form-group">
-                                        <label for="basicInput">Name</label>
+                                        <label for="basicInput">Nama Alternatif</label>
                                         <input type="text" class="form-control" name="id_alternative" value="<?=$row['id_alternative'];?>" hidden>
                                         <input type="text" class="form-control" name="name" value="<?=$row['name'];?>">
                                     </div>

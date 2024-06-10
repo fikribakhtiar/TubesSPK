@@ -19,7 +19,7 @@
                         <div class="col-12">
                             <div class="card">
                                 <div class="card-header">
-                                    <h4>Sistem Pendukung Keputusan Manajer IT Terbaik</h4>
+                                    <h4>Sistem Pendukung Keputusan Pemilihan Kost Sekitar Kampus UPI</h4>
                                 </div>
                                 <div class="card-content">
                                     <div class="card-body">
@@ -36,23 +36,32 @@
                                         </p>
                                         <hr>
                                         <p class="card-text">
-                                            Langkah Penyelesaian Simple Additive Weighting (SAW) adalah sebagai berikut
+                                            Tahapan dalam metode SAW
                                             :
                                         </p>
                                         <ol type="1">
-                                            <li>Menentukan kriteria-kriteria yang akan dijadikan acuan dalam pengambilan
-                                                keputusan, yaitu Ci</i>
-                                            <li>Menentukan rating kecocokan setiap alternatif pada setiap kriteria (X).
+                                            <li>
+                                                Mendefinisikan beberapa kriteria (atribut, bobot, rating) yang akan dijadikan acuan dalam pengambilan keputusan 
                                             </li>
-                                            <li>Membuat matriks keputusan berdasarkan kriteria(Ci), kemudian melakukan
-                                                normalisasi matriks berdasarkan persamaan yang disesuaikan dengan jenis
-                                                atribut (atribut keuntungan ataupun atribut biaya) sehingga diperoleh
-                                                matriks ternormalisasi R.</li>
-                                            <li>Hasil akhir diperoleh dari proses perankingan yaitu penjumlahan dari
-                                                perkalian matriks ternormalisasi R dengan vektor bobot sehingga
-                                                diperoleh nilai terbesar yang dipilih sebagai alternatif terbaik
-                                                (Ai)sebagai solusi</li>
+                                            <li>
+                                                Menentukan nilai setiap kriteria yang dimiliki setiap alternatif. Nilai bisa mengacu pada rating yang sudah didefinisikan. 
+                                            </li>
+                                            <li>
+                                                Membuat matriks keputusan 
+                                            </li>
+                                            <li>
+                                                Melakukan normalisasi matriks berdasarkan rumus sesuai dengan atributnya (biaya atau keuntungan) 
+                                            </li>
+                                            <li>
+                                                Melakukan penjumlahan dari perkalian matriks ternormalisasi dengan bobot kriteria sehingga diperoleh solusi alternatif terbaik berdasarkan peringkat terbesar.
+                                            </li>
                                         </ol>
+                                        <div class="text-center p-5">
+                                            <p class="fw-bold text-start">
+                                                Tabel preferensi yang digunakan dalam studi kasus kali ini adalah sebagai berikut :
+                                            </p>
+                                            <img src="./assets/images/Tabel_Preferensi.jpg" alt="Tabel Preferensi" class="t rounded">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
