@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="assets/vendors/bootstrap-icons/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/css/app.css">
     <link rel="stylesheet" href="assets/css/pages/auth.css">
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/home.png" type="image/x-icon">
 </head>
 
 <body>
     <div id="auth">
 
-        <div class="row h-100">
-            <div class="col-lg-5 col-12">
+        <div class="row h-100 text-center">
+            <div class="col-lg-5 col-12 position-absolute top-50 start-50 translate-middle">
                 <div id="auth-left">
                     <h1 class="auth-title">Log in</h1>
                     <form action="login-act.php" method="post">
@@ -35,11 +35,6 @@
                         </div>
                         <button type="submit" class="btn btn-primary btn-block btn-lg shadow-lg mt-5">Log in</button>
                     </form>
-                </div>
-            </div>
-            <div class="col-lg-7 d-none d-lg-block">
-                <div id="auth-right">
-
                 </div>
             </div>
         </div>

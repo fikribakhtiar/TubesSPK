@@ -39,7 +39,7 @@ require "include/conn.php";
                                     <div class="table-responsive">
                                         <table class="table table-striped mb-0">
                                             <caption>
-                                                Tabel Alternatif A<sub>i</sub>
+                                                Tabel Alternatif
                                             </caption>
                                             <tr>
                                                 <th>No</th>
