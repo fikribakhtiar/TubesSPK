@@ -33,7 +33,7 @@ require "include/conn.php";
                   <div class="table-responsive">
                     <table class="table table-striped mb-0">
                     <caption>
-    Tabel Kriteria C<sub>i</sub>
+    Tabel Kriteria
   </caption>
   <tr>
     <th>No</th>
