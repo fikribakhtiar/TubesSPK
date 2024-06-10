@@ -1,4 +1,4 @@
-# Sistem Pendukung Keputusan Pemilihan Kampus di
+# Sistem Pendukung Keputusan Pemilihan Kost di Sekitar Kampu Univeristas Pendidikan Indonesia Menggunakan metode Simple Additive Weighting (SAW)
 Metode Simple Additive Weighting (SAW) merupakan salah satu metode dalam SPK yang dapat digunakan untuk menilai dan memilih alternatif terbaik berdasarkan beberapa kriteria yang telah ditentukan. Metode SAW memiliki keunggulan dengan kemampuannya untuk melakukan penilaian dengan lebih akurat karena didasarkan pada nilai kriteria dan bobot preferensi yang telah ditetapkan (Kusumadewi et al., 2006). 
 
 
