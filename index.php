@@ -60,7 +60,7 @@
                                             </div>
                                             <p class="fw-bold text-start p-3">Studi kasus: Sistem pendukung keputusan pemilihan kost</p>
                                             <p>Tahun ajaran baru akan dimulai namun bagi mahasiswa yang memiliki jarak tempuh yang jauh dengan kampus
-                                                memerlukan kost, maka dari itu kami menyediakan sistem pendukung keputusan membantu pemilihan kost.
+                                                memerlukan kost, maka dari itu kami membuat sistem pendukung keputusan membantu pemilihan kost dengan ketentuan kriteria seperti gambar diatas.
                                             </p>
                                         </div>
                                     </div>
