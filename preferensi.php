@@ -47,10 +47,11 @@ require "R.php";
 $P = array();
 $m = count($W);
 $no = 0;
+$temp;
 asort($P);
 foreach ($R as $i => $r) {
     for ($j = 0; $j < $m; $j++) {
-        $P[$i] = (isset($P[$i]) ? $P[$i] : 0) + $r[$j] * $W[$j];
+        $P[$i] = (isset($P[$i]) ? $P[$i] : 0) + $r[$j] * $W[$j];  
     }
     echo "<tr class='center'>
             <td>" . (++$no) . "</td>
@@ -61,6 +62,29 @@ foreach ($R as $i => $r) {
 ?>
                     </table>
                   </div>
+                  <div>
+<?php
+
+$P = array();
+$m = count($W);
+$no = 0;
+$temp;
+asort($P);
+foreach ($R as $i => $r) {
+    for ($j = 0; $j < $m; $j++) {
+        $P[$i] = (isset($P[$i]) ? $P[$i] : 0) + $r[$j] * $W[$j];  
+    }
+}
+$i = 1;
+while($P[$i] == max($P)) {
+  $temp = $i;
+  $i++;
+}
+$result = max($P);
+echo "<p> Pada hasil laporan pemilihan diatas, dapat diambil kesimpulan bahwa alternatif A{$temp} dengan skor {$result} dianggap 
+sebagai pilihan terbaik menurut kriteria yang telah ditetapkan </p>";
+?>
+  </div>
                 </div>
               </div>
             </div>
