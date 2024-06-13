@@ -13,19 +13,19 @@ Tahapan dalam metode SAW
 ## Dokumentasi Aplikasi
 
 ### Login
-![Login](https://github.com/fikribakhtiar/TubesSPK/assets/118445390/93d0df86-d879-423e-8f34-de9678568622)
+![Login](https://github.com/fikribakhtiar/TubesSPK/assets/118445390/1fb2315d-46e1-4507-a782-7ec08efc0da5)
 
 ### Dashboard
-![Dashboard](https://github.com/fikribakhtiar/TubesSPK/assets/118445390/5793ab68-22aa-4a0d-9484-4d98c844bffb)
+![Dashboard](https://github.com/fikribakhtiar/TubesSPK/assets/118445390/5d0d422c-e3fc-4a49-99f5-00855be4ec02)
 
 ### Tabel Alternatif
-![Tabel Alternatif](https://github.com/fikribakhtiar/TubesSPK/assets/118445390/a39b1687-71d7-4659-96dc-d3b2bd564589)
+![Alternatif](https://github.com/fikribakhtiar/TubesSPK/assets/118445390/01d4bba1-aec7-435c-8355-0155d4683bff)
 
 ### Bobot Kriteria
-![Bobot Kriteria](https://github.com/fikribakhtiar/TubesSPK/assets/118445390/8dad36f2-07a3-49bd-8e48-17d85e5e4785)
+![Kriteria](https://github.com/fikribakhtiar/TubesSPK/assets/118445390/2c1a0d72-00fb-43ee-bd0e-1f7249555973)
 
 ### Matrik Keputusan
-![Matriks Keputusan](https://github.com/fikribakhtiar/TubesSPK/assets/118445390/b2290f36-addf-4567-a989-e5b5a9609310)
+![Matriks](https://github.com/fikribakhtiar/TubesSPK/assets/118445390/1f5a51c3-2c35-4987-98ca-c496c0c60952)
 
 ### Nilai Preferensi
-![Nilai Preferensi](https://github.com/fikribakhtiar/TubesSPK/assets/118445390/c47699e4-5c4a-434a-b451-a5754e6352ae)
+![Preferensi](https://github.com/fikribakhtiar/TubesSPK/assets/118445390/18968ec7-65d1-448b-978e-ee71aa56bd66)
