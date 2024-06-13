@@ -75,14 +75,19 @@ foreach ($R as $i => $r) {
         $P[$i] = (isset($P[$i]) ? $P[$i] : 0) + $r[$j] * $W[$j];  
     }
 }
-$i = 1;
-while($P[$i] == max($P)) {
-  $temp = $i;
-  $i++;
+
+$i = (isset($P[$i]));
+for($i = 1; $i <= count($P); $i++) {
+  if($i == NULL){
+    return 0;
+  }
+  else if($P[$i] == max($P)) {
+    $temp = $i;
+}
+
 }
 $result = max($P);
-echo "<p> Pada hasil laporan pemilihan diatas, dapat diambil kesimpulan bahwa alternatif A{$temp} dengan skor {$result} dianggap 
-sebagai pilihan terbaik menurut kriteria yang telah ditetapkan </p>";
+echo "<p> Alternatif yang memiliki nilai tertinggi adalah alternatif A{$temp} dengan nilai {$result} </p>";
 ?>
   </div>
                 </div>

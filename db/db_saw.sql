@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `saw_alternatives` (
-  `id_alternative` smallint(5) UNSIGNED NOT NULL,
+  `id_alternative` int(10) UNSIGNED NOT NULL,
   `name` varchar(30) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
@@ -40,8 +40,7 @@ INSERT INTO `saw_alternatives` (`id_alternative`, `name`) VALUES
 (1, 'Kost 1'),
 (2, 'Kost 2'),
 (3, 'Kost 3'),
-(4, 'Kost 4'),
-(5, 'Kost 5');
+(4, 'Kost 4');
 
 -- --------------------------------------------------------
 
@@ -50,7 +49,7 @@ INSERT INTO `saw_alternatives` (`id_alternative`, `name`) VALUES
 --
 
 CREATE TABLE `saw_criterias` (
-  `id_criteria` tinyint(3) UNSIGNED NOT NULL,
+  `id_criteria` int(3) UNSIGNED NOT NULL,
   `criteria` varchar(100) NOT NULL,
   `weight` float NOT NULL,
   `attribute` set('benefit','cost') DEFAULT NULL
@@ -74,8 +73,8 @@ INSERT INTO `saw_criterias` (`id_criteria`, `criteria`, `weight`, `attribute`) V
 --
 
 CREATE TABLE `saw_evaluations` (
-  `id_alternative` smallint(5) UNSIGNED NOT NULL,
-  `id_criteria` tinyint(3) UNSIGNED NOT NULL,
+  `id_alternative` int(5) UNSIGNED NOT NULL,
+  `id_criteria` int(3) UNSIGNED NOT NULL,
   `value` float NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
@@ -103,12 +102,7 @@ INSERT INTO `saw_evaluations` (`id_alternative`, `id_criteria`, `value`) VALUES
 (4, 2, 3),
 (4, 3, 4),
 (4, 4, 5),
-(4, 5, 1),
-(5, 1, 1),
-(5, 2, 4),
-(5, 3, 1),
-(5, 4, 3),
-(5, 5, 3);
+(4, 5, 1);
 
 -- --------------------------------------------------------
 
@@ -165,13 +159,13 @@ ALTER TABLE `saw_users`
 -- AUTO_INCREMENT for table `saw_alternatives`
 --
 ALTER TABLE `saw_alternatives`
-  MODIFY `id_alternative` smallint(5) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id_alternative` int(5) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `saw_users`
 --
 ALTER TABLE `saw_users`
-  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
